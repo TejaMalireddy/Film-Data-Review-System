@@ -15,7 +15,7 @@ class Movie(db.Model):
     original_title = db.Column(db.String(255), nullable=True)
     original_language = db.Column(db.String(50), nullable=True)
     overview = db.Column(db.Text, nullable=True)
-    release_date = db.Column(db.Date, nullable=True)  # Changed to Date type
+    release_date = db.Column(db.Date, nullable=True)  
     budget = db.Column(db.BigInteger, nullable=True)
     homepage = db.Column(db.Text, nullable=True)
     revenue = db.Column(db.BigInteger, nullable=True)
